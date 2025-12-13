@@ -15,10 +15,8 @@ class Course {
         return "Course ID : " + courseId +
                "\nCourse Name : " + courseName + "\n";
     }
-
     
 }
-
 
 class Student {
     final int roll;       
@@ -42,7 +40,6 @@ class Student {
     }
 }
 
-
 public class CollegeManager {
     public static void main(String[] args) {
 
@@ -54,7 +51,7 @@ public class CollegeManager {
         courses[1] = new Course(102, "Python Essentials");
         courses[2] = new Course(103, "Data Structures");
 
-        System.out.println("===== Available Courses =====");
+        System.out.println("==== Available Courses ====");
         for (int i = 0; i < courses.length; i++) {
             System.out.println(courses[i]);
         }
@@ -85,7 +82,7 @@ public class CollegeManager {
         }
 
        
-        System.out.println("\n===== STUDENT DETAILS =====\n");
+        System.out.println("\n==== STUDENT DETAILS ====\n");
         for (int i = 0; i < n; i++) {
             System.out.println(students[i]);
         }
